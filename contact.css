@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    text-decoration: none;
+}
+
+body {
+	background-image: url('https://c.stocksy.com/a/pm4100/z9/256731.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: rgba(0,0,0,0.4);
+    margin: 0px auto;
+}
+
+.inner_header {
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+    margin: auto;
+}
+
+.logo_container a{
+	margin: auto;
+	display: table;
+	height: 100%;
+}
+
+.logo_container h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+    margin: auto;
+}
+
+.logo_container h1 span {
+    font-weight: 800;
+    margin: auto;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+    margin: auto;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+.navigation a:last-child {
+    padding-right: 0;
+}
+
+.navigation a li {
+    display: table-cell; 
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    margin: auto;
+} 
+
+
+.contact{
+	display: block;
+	width: 45%;
+	margin: 30px auto;
+}
+
+
+.main{
+	display: block;
+	width: 100%;
+	margin: auto;
+	font-family: 'Montserrat';
+    font-size: 15px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: rgba(254, 254, 254,0.8);
+}
+
+.main h1{
+	width: 100%;
+	text-align: center;
+	margin: 10px auto 40px auto;
+	font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+
+.contact_form{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.border {
+	border: 1px solid grey;
+	margin: 20px auto;
+	padding: 3px 10px;
+	border-radius: 7px;
+}
+
+
+label {
+	display: block;
+	margin: 5px auto;
+	float: left;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+input {
+	display: block;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	background: none;
+	font-size: 15px;
+	outline: none;
+}
+
+
+
+textarea {
+	width: 100%;
+	border-color: grey;
+	background: none;
+	font-size: 15px;
+	font-family: 'Montserrat';
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+button{
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 5px auto;
+	width: 100%;
+	padding: 15px 0;
+	border: none;
+	border-radius: 5px;
+	background-color: rgba(200, 100, 0, 0.8);
+	cursor: pointer;
+}

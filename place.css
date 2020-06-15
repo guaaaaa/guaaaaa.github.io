@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+	background-image: url('https://live.staticflickr.com/3576/3305454976_f485e12e73_b.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.4);
+	display: block;
+}
+
+.inner_header{
+	width: 80%;
+	height: 100px;
+	margin: auto;
+	display: block;
+}
+
+.logo_container {
+	display: table;
+	float: left;
+	margin: auto;
+	height: 100%;
+}
+
+.logo_container a{
+	margin: auto;
+	display: table;
+	height: 100%;
+}
+
+.logo_container h1{
+	color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+    margin: auto;
+}
+
+.logo_container h1 span {
+    font-weight: 800;
+    margin: auto;
+}
+
+.navigation {
+	float: right;
+    height: 100%;
+    margin: auto;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+.navigation a:last-child {
+    padding-right: 0;
+}
+
+.navigation a li {
+    display: table-cell; 
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    margin: auto;
+} 
+
+.place {
+	display: block;
+	width: 100%;
+	margin: auto;
+	margin-top: 13%;
+}
+
+.place h1 {
+	font-family: 'Montserrat';
+    font-size: 24px;
+    text-align: center;
+    margin: 80px auto 400px auto;
+    color: white;
+}
+
+hr{
+	width: 70%;
+	margin: 50px auto;
+}
+
+.info {
+	display: block;
+	width: 95%;
+	margin: auto;
+}
+
+.info ul{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.info li{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: auto;
+}
+.info h4 {
+	margin-top: 40px;
+	font-family: 'Montserrat';
+    font-size: 12px;
+    text-align: center;
+}
+
+.info figure{
+	display: inline-block;
+	width: 100%;
+	padding: 20px;
+}
+
+.info img {
+	display: flex;
+	width: 100%;
+	margin: 40px auto;
+	border-radius: 10px;
+	box-shadow: black 0 0 10px;
+}
+
+
+
+.footer{
+    display:flex;
+    flex-direction: row;
+    height: 100px;
+    vertical-align: center;
+    width: 100%;
+    background-color: rgb(50,50,50);
+    margin-top: 150px;
+}
+
+.footer h4 {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    margin: 10px 20px 10px 20px;
+    vertical-align: middle;
+    color: white;
+}
+
+.follow {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    float right;
+    margin: 10px 50px 10px auto;
+    vertical-align: middle;
+}
+
+.follow img{
+    width: 20px;
+    display: inline;
+    margin: auto 20px;
+    position: relative;
+    bottom: -7px;
+}
